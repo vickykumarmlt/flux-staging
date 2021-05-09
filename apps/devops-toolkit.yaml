@@ -14,8 +14,8 @@ spec:
   interval: 30s
   targetNamespace: staging
   values:
-    image:
-      tag: 2.9.9
+    image: nginx
+      tag: latest
     ingress:
       host: staging.devops-toolkit..nip.io
 
