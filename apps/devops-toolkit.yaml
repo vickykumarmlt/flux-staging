@@ -13,4 +13,6 @@ spec:
         name: devops-toolkit
   interval: 30s
   targetNamespace: staging
-
+  values:
+          image:
+               tag: 1.17.0
