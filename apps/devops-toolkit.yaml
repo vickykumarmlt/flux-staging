@@ -7,13 +7,13 @@ metadata:
 spec:
   chart:
     spec:
-      chart: helm
+      chart: nginx
       sourceRef:
         kind: GitRepository
         name: devops-toolkit
   interval: 30s
   targetNamespace: staging
-  values:
-    image:
-      tag: 2.9.16
+#  values:
+#    image:
+#      tag: 2.9.16
 
